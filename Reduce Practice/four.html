@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Question
+    Write a function that finds the maximum value in an array of numbers using the reduce() method. -->
+    <script>
+        const arr = [23,235,9874,983,5,324,64,9864,34,425]
+        let max = 0
+        const result = arr.reduce(((max,curr)=>curr>max? curr:max),arr[0])
+        console.log(result);
+    </script>
+</body>
+</html>

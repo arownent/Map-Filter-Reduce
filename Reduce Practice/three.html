@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Question
+    Suppose you have an array of objects representing items in a shopping cart, where each object has a price property. Write a function that uses reduce() to calculate the total price of all items in the cart. -->
+
+    <script>
+        const cart=[{name:"dauh", age:21},{name:"alis", age:5},{name:"kausyd", age:8},{name:"adyuf", age:200},{name:"lsaiuuft", age:0},{name:"kfdutwafdew", age:35},{name:"uewafd", age:99},{name:"ewau", age:20},{name:"iaytfd", age:16},{name:"dwatrd", age:45},{name:"ewuft", age:13},{name:"weald", age:7},{name:"wesdf", age:19},]
+
+        const result = cart.reduce(((acc,curr)=>acc+curr.age),0)
+        console.log(result);
+    </script>
+</body>
+</html>
